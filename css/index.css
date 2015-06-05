@@ -1,0 +1,68 @@
+	@font-face {
+ font-family: ariston_normal;
+ src: url(ariston_normal.ttf); 
+}
+header{
+
+font-size: 23pt;
+font-style: italic;
+text-align: center;
+color: black;
+font-family: ariston_normal;
+
+}
+body {
+
+
+background-image: url("../img/fonst.jpg");	
+
+background-size: cover;
+
+	
+}
+#menu {
+opacity: 0.6;
+height:20%;
+background-image: url("../img/fonm.jpg");
+position: fixed; 	
+width: 15%;
+color:blue;
+border-radius: 40px 10px;
+font-size: 15pt;
+font-family: ariston_normal;
+
+
+
+}
+#content {
+position:absolute;
+margin-left: 15%;
+color: aqua;
+height: 100%;
+width: 85%;
+
+
+
+}
+footer {
+opacity: 0.6;
+background-image: url("../img/fonm.jpg");
+position: fixed;
+color:white;
+bottom: 0;
+width: 100%;
+height: 11%;
+font-size: 15pt;
+font-family: ariston_normal;
+}
+.links {
+	text-decoration: none;
+	color: white;
+
+	}
+.icons {
+width:55px;
+height:55px;
+margin-left: 50%;
+margin-top: -20%;
+}
