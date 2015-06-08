@@ -1,3 +1,3 @@
 <header>
-<p>dsgdfg</p>
+<p><a class="mainlinks" href="index.php">Главная страница</a></p>
 </header>

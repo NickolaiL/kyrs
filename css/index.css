@@ -3,22 +3,15 @@
  src: url(ariston_normal.ttf); 
 }
 header{
-
 font-size: 23pt;
 font-style: italic;
 text-align: center;
 color: black;
 font-family: ariston_normal;
-
 }
 body {
-
-
 background-image: url("../img/fonst.jpg");	
-
-background-size: cover;
-
-	
+background-size: cover;	
 }
 #menu {
 opacity: 0.6;
@@ -30,19 +23,13 @@ color:blue;
 border-radius: 40px 10px;
 font-size: 15pt;
 font-family: ariston_normal;
-
-
-
 }
 #content {
 position:absolute;
 margin-left: 15%;
-color: aqua;
+color: black;
 height: 100%;
 width: 85%;
-
-
-
 }
 footer {
 opacity: 0.6;
@@ -57,12 +44,15 @@ font-family: ariston_normal;
 }
 .links {
 	text-decoration: none;
-	color: white;
-
+	color: aqua;
 	}
+.mainlinks {
+	text-decoration: none;
+	color: black;
+}
 .icons {
 width:55px;
 height:55px;
-margin-left: 50%;
-margin-top: -20%;
+margin-left: 0%;
+margin-top: 0%;
 }

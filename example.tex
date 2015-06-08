@@ -1,0 +1,108 @@
+\documentclass[a4paper,14pt]{extreport} 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,mathtext,cite,enumerate,float}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{tocvsec2}
+\usepackage{setspace}
+\usepackage[normalem]{ulem}
+
+
+\usepackage{geometry} 
+\geometry{left=3cm}
+\geometry{right=1.5cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thechapter{\arabic{chapter}}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\begin{document}
+\input{Title}
+
+
+\newpage
+\renewcommand\contentsname{\normalsize СОДЕРЖАНИЕ}
+\tableofcontents 
+
+\parindent=1.25cm
+\newpage
+
+\section*{\normalsize ВВЕДЕНИЕ}
+\addcontentsline{toc}{section}{ВВЕДЕНИЕ}
+
+\label{sec:intro}
+\input{vved}
+
+\newpage
+\section{\normalsize АНАЛИЗ ПРОТОТИПОВ, ЛИТЕРАТУРНЫХ ИСТОЧНИКОВ И ФОРМИРОВАНИЕ ТРЕБОВАНИЙ К ПРОЕКТИРУЕМОМУ ППРИЛОЖЕНИЮ}
+\label{sec:exp}
+
+
+\subsection{\normalsize Анализ литературных источников}
+\label{sec:exp:analog}
+\input{analiz1}
+
+\subsection{\normalsize Анализ прототипов и программ аналогов}
+\label{sec:exp:analog}
+\input{analiz2}
+
+\subsection{\normalsize Формирование требований к разрабатываемому приложению}
+\label{sec:exp:analog}
+\input{analiz3}
+
+\newpage
+\section{\normalsize АНАЛИЗ ТРЕБОВАНИЙ К ПРИЛОЖЕНИЮ И РАЗРАБОТКА ФУНКЦИОНАЛЬНЫХ ТРЕБОВАНИЙ}
+
+\subsection{\normalsize Описание функциональности приложения}
+\label{sec:exp:analog}
+\input{functionality1}
+
+\subsection{\normalsize Спецификация  функциональных требований}
+\label{sec:exp:analog}
+\input{functionality2}
+
+\newpage
+\section{\normalsize ПРОЕКТИРОВАНИЕ, СОЗДАНИЕ (КОНСТРУИРОВАНИЕ) ПРИЛОЖЕНИЯ}
+\label{sec:pc}
+\input{development}
+
+\newpage
+\section{ \normalsize ТЕСТИРОВАНИЕ, ПРОВЕРКА РАБОТОСПОСОБНОСТИ И АНАЛИЗ ПОЛУЧЕННЫХ РЕЗУЛЬТАТОВ}
+\label{sec:test}
+\input{test}
+
+\newpage
+\section{\normalsize РУКОВОДСТВО ПО УСТАНОВКЕ И ИСПОЛЬЗОВАНИЮ ПРИЛОЖЕНИЯ}
+\input{manual}
+
+\newpage
+\section*{\normalsize ЗАКЛЮЧЕНИЕ}
+\addcontentsline{toc}{section}{ЗАКЛЮЧЕНИЕ}
+\input{conclusion}
+
+\newpage
+\section*{\normalsize СПИСОК ИСПОЛЬЗОВАННОЙ ЛИТЕРАТУРЫ}
+\addcontentsline{toc}{section}{СПИСОК ИСПОЛЬЗОВАННОЙ ЛИТЕРАТУРЫ}
+	
+\hspace{1.25cm}[1] Html and css for real world , Авторы: Alexis Goldstein, Louis Lazaris, Estelle Weyl.
+
+[2] ГОСТ 19.701–90. Единая система программной документации. Схемы алгоритмов, программ, данных и систем. Условные обозначения и правила выполнения. – Введ. 1992–01–01. – М. : Изд-во стандартов, 1991.
+
+[3] JavaScript.ru [Электронный ресурс]. – События : http:/htmlbook.ru.
+
+
+[4] Habrahabr.ru [Электронный ресурс]. – React : \\
+ http://habrahabr.ru/
+\newpage
+\section*{\normalsize ПРИЛОЖЕНИЕ А(обязательное)}
+\addcontentsline{toc}{section}{ПРИЛОЖЕНИЕ А}
+\input{adds}
+\end{document}
+
+
+\end{document}
