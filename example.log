@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  8 JUN 2015 20:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.6.7)  9 JUN 2015 09:30
 entering extended mode
 **example.tex
 (C:\xampp1\htdocs\example.tex
@@ -660,20 +660,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks27
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\xampp1\htdocs\example.aux
-
-LaTeX Warning: Label `sec:exp:analog' multiply defined.
-
-
-LaTeX Warning: Label `sec:exp:analog' multiply defined.
-
-
-LaTeX Warning: Label `sec:exp:analog' multiply defined.
-
-
-LaTeX Warning: Label `sec:exp:analog' multiply defined.
-
-)
+(C:\xampp1\htdocs\example.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
@@ -688,7 +675,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen127
@@ -738,18 +726,19 @@ LaTeX Font Info:    ... okay on input line 24.
 
 (C:\xampp1\htdocs\Title.tex [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) (C:\xampp1\htdocs\exampl
-e.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]) (C:\xampp1\htdocs\taskLi
+st1.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 7.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1]) [2]
+(C:\xampp1\htdocs\example.toc
 Overfull \hbox (12.83435pt too wide) in paragraph at lines 11--11
  [][] []\T2A/cmr/m/n/14.4 œ–Œ≈ “»–Œ¬¿Õ»≈, —Œ-«ƒ¿-Õ»≈ ( ŒÕ-—“–”-»-–Œ-¬¿-Õ»≈) 
  []
@@ -767,28 +756,24 @@ Overfull \hbox (1.03664pt too wide) in paragraph at lines 16--16
 
 )
 \tf@toc=\write3
- [1
+ [3
 
-] [2] (C:\xampp1\htdocs\vved.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--40
-
- []
-
-[3] [4] (C:\xampp1\htdocs\analiz1.tex) [5] (C:\xampp1\htdocs\analiz2.tex
-<analog1.png, id=25, 1015.54407pt x 510.40688pt>
+] [4] (C:\xampp1\htdocs\vved.tex [5]) [6] (C:\xampp1\htdocs\analiz1.tex)
+[7] (C:\xampp1\htdocs\analiz2.tex
+<analog1.png, id=33, 1015.54407pt x 510.40688pt>
 File: analog1.png Graphic file (type png)
  <use analog1.png>
 Package pdftex.def Info: analog1.png used on input line 2.
 (pdftex.def)             Requested size: 328.6279pt x 165.16376pt.
- [6]
-<analog2.png, id=31, 903.375pt x 689.57625pt>
+ [8]
+<analog2.png, id=38, 903.375pt x 689.57625pt>
 File: analog2.png Graphic file (type png)
  <use analog2.png>
 Package pdftex.def Info: analog2.png used on input line 5.
 (pdftex.def)             Requested size: 328.6279pt x 250.85672pt.
 )
-(C:\xampp1\htdocs\analiz3.tex [7 <C:/xampp1/htdocs/analog1.png> <C:/xampp1/htdo
-cs/analog2.png>]) [8] (C:\xampp1\htdocs\functionality1.tex
+(C:\xampp1\htdocs\analiz3.tex [9 <C:/xampp1/htdocs/analog1.png> <C:/xampp1/htdo
+cs/analog2.png>]) [10] (C:\xampp1\htdocs\functionality1.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -796,72 +781,120 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
-) [9]
-(C:\xampp1\htdocs\functionality2.tex) [10] (C:\xampp1\htdocs\development.tex)
-[11] (C:\xampp1\htdocs\test.tex
-<mainpage.jpg, id=50, 1017.04968pt x 517.935pt>
+) [11]
+(C:\xampp1\htdocs\functionality2.tex) [12] (C:\xampp1\htdocs\development.tex
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 12.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [13]
+Overfull \hbox (49.42342pt too wide) in paragraph at lines 61--61
+[]\T2A/cmtt/m/n/14.4 $template_name = 'templates/' . str_replace("{include(\"",
+ "", $value);[] 
+ []
+
+
+Overfull \hbox (12.88159pt too wide) in paragraph at lines 61--61
+[]\T2A/cmtt/m/n/14.4 $template_name = str_replace("\")}", "", $template_name) .
+ '.tpl';[] 
+ []
+
+
+Overfull \hbox (137.1238pt too wide) in paragraph at lines 61--61
+[]\T2A/cmtt/m/n/14.4 $output = str_replace($tag_to_replace, file_get_contents($
+template_name), $output);[] 
+ []
+
+[14] [15]
+Overfull \hbox (100.58197pt too wide) in paragraph at lines 101--101
+[]\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/03.jpg" alt="Css Template 
+Preview" /></a></li>[] 
+ []
+
+
+Overfull \hbox (100.58197pt too wide) in paragraph at lines 101--101
+[]\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/04.jpg" alt="Css Template 
+Preview" /></a></li>[] 
+ []
+
+
+Overfull \hbox (100.58197pt too wide) in paragraph at lines 101--101
+[]\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/03.jpg" alt="Css Template 
+Preview" /></a></li>[] 
+ []
+
+
+Overfull \hbox (100.58197pt too wide) in paragraph at lines 101--101
+[]\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/04.jpg" alt="Css Template 
+Preview" /></a></li>[] 
+ []
+
+
+Overfull \hbox (100.58197pt too wide) in paragraph at lines 101--101
+[]\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/05.jpg" alt="Css Template 
+Preview" /></a></li>[] 
+ []
+
+) [16] (C:\xampp1\htdocs\test.tex
+<mainpage.jpg, id=68, 1017.04968pt x 517.935pt>
 File: mainpage.jpg Graphic file (type jpg)
  <use mainpage.jpg>
 Package pdftex.def Info: mainpage.jpg used on input line 4.
 (pdftex.def)             Requested size: 328.6279pt x 167.3548pt.
 
-<contactpage.jpg, id=51, 1017.04968pt x 516.42938pt>
+<contactpage.jpg, id=69, 1017.04968pt x 516.42938pt>
 File: contactpage.jpg Graphic file (type jpg)
  <use contactpage.jpg>
 Package pdftex.def Info: contactpage.jpg used on input line 8.
 (pdftex.def)             Requested size: 328.6279pt x 166.8683pt.
 
-<pricepage.jpg, id=52, 1016.29688pt x 515.67656pt>
+<pricepage.jpg, id=70, 1017.8025pt x 517.935pt>
 File: pricepage.jpg Graphic file (type jpg)
  <use pricepage.jpg>
 Package pdftex.def Info: pricepage.jpg used on input line 12.
-(pdftex.def)             Requested size: 328.6279pt x 166.74309pt.
- [12 <C:/xampp1/htdocs/mainpage.jpg> <C:/xampp1/htdocs/contactpage.jpg>]
-<topicspage.jpg, id=57, 1014.79124pt x 517.18219pt>
+(pdftex.def)             Requested size: 328.6279pt x 167.22835pt.
+ [17 <C:/xampp1/htdocs/mainpage.jpg> <C:/xampp1/htdocs/contactpage.jpg>]
+<topicspage.jpg, id=74, 1016.29688pt x 517.18219pt>
 File: topicspage.jpg Graphic file (type jpg)
  <use topicspage.jpg>
 Package pdftex.def Info: topicspage.jpg used on input line 17.
-(pdftex.def)             Requested size: 328.6279pt x 167.48245pt.
+(pdftex.def)             Requested size: 328.6279pt x 167.22992pt.
 )
-[13 <C:/xampp1/htdocs/pricepage.jpg> <C:/xampp1/htdocs/topicspage.jpg>]
-(C:\xampp1\htdocs\manual.tex <setup.jpg, id=61, 478.03593pt x 338.76563pt>
+[18 <C:/xampp1/htdocs/pricepage.jpg> <C:/xampp1/htdocs/topicspage.jpg>]
+(C:\xampp1\htdocs\manual.tex <setup.jpg, id=79, 478.03593pt x 338.76563pt>
 File: setup.jpg Graphic file (type jpg)
 
 <use setup.jpg>
 Package pdftex.def Info: setup.jpg used on input line 8.
 (pdftex.def)             Requested size: 328.6279pt x 232.88527pt.
- <setuper1.jpg, id=62, 221.32687pt x 111.41624pt>
+ <setuper1.jpg, id=80, 221.32687pt x 111.41624pt>
 File: setuper1.jpg Graphic file (type jpg)
 
 <use setuper1.jpg>
 Package pdftex.def Info: setuper1.jpg used on input line 14.
 (pdftex.def)             Requested size: 328.6279pt x 165.44087pt.
- [14 <C:/xampp1/htdocs/setup.jpg>]
-<setuper2.jpg, id=66, 1027.58907pt x 577.40718pt>
+ [19 <C:/xampp1/htdocs/setup.jpg>]
+<setuper2.jpg, id=84, 1027.58907pt x 577.40718pt>
 File: setuper2.jpg Graphic file (type jpg)
  <use setuper2.jpg>
 Package pdftex.def Info: setuper2.jpg used on input line 17.
 (pdftex.def)             Requested size: 328.6279pt x 184.65953pt.
 
-<setuper3.jpg, id=67, 1027.58907pt x 577.40718pt>
+<setuper3.jpg, id=85, 1027.58907pt x 577.40718pt>
 File: setuper3.jpg Graphic file (type jpg)
  <use setuper3.jpg>
 Package pdftex.def Info: setuper3.jpg used on input line 19.
 (pdftex.def)             Requested size: 328.6279pt x 184.65953pt.
 
-<setuper4.jpg, id=68, 1027.58907pt x 577.40718pt>
+<setuper4.jpg, id=86, 1027.58907pt x 577.40718pt>
 File: setuper4.jpg Graphic file (type jpg)
  <use setuper4.jpg>
 Package pdftex.def Info: setuper4.jpg used on input line 21.
 (pdftex.def)             Requested size: 328.6279pt x 184.65953pt.
- [15 <C:/xampp1/htdocs/setuper1.jpg> <C:/xampp1/htdocs/setuper2.jpg> <C:/xampp1
-/htdocs/setuper3.jpg>]) [16 <C:/xampp1/htdocs/setuper4.jpg>]
-(C:\xampp1\htdocs\conclusion.tex) [17] [18] (C:\xampp1\htdocs\adds.tex
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 2.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmtt.fd"
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+ [20 <C:/xampp1/htdocs/setuper1.jpg> <C:/xampp1/htdocs/setuper2.jpg> <C:/xampp1
+/htdocs/setuper3.jpg>]) [21 <C:/xampp1/htdocs/setuper4.jpg>]
+(C:\xampp1\htdocs\conclusion.tex) [22] [23] (C:\xampp1\htdocs\adds.tex
 Overfull \hbox (49.42342pt too wide) in paragraph at lines 51--51
 []\T2A/cmtt/m/n/14.4 $template_name = 'templates/' . str_replace("{include(\"",
  "", $value);[] 
@@ -879,7 +912,7 @@ Overfull \hbox (137.1238pt too wide) in paragraph at lines 51--51
 template_name), $output);[] 
  []
 
-[19] [20]
+[24] [25]
 Overfull \hbox (12.88159pt too wide) in paragraph at lines 68--68
 []\T2A/cmtt/m/n/14.4 $template = new Template("templates/page-template-contacts
 .html");[] 
@@ -909,7 +942,7 @@ Overfull \hbox (100.58197pt too wide) in paragraph at lines 113--113
 s" media="screen" />[] 
  []
 
-[21]
+[26]
 Overfull \hbox (268.67436pt too wide) in paragraph at lines 120--120
 []\T2A/cmtt/m/n/14.4 <p><a href="https://vk.com/id220129264"> <img class="icons
 "  src="img/vk.png" alt="¬ÍÓÌÚ‡ÍÚÂ"></a><p>[] 
@@ -921,7 +954,7 @@ Overfull \hbox (5.57323pt too wide) in paragraph at lines 129--129
 /a></p>[] 
  []
 
-[22]
+[27]
 Overfull \hbox (100.58197pt too wide) in paragraph at lines 164--164
 []\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/03.jpg" alt="Css Template 
 Preview" /></a></li>[] 
@@ -951,7 +984,7 @@ Overfull \hbox (100.58197pt too wide) in paragraph at lines 164--164
 Preview" /></a></li>[] 
  []
 
-[23]
+[28]
 Overfull \hbox (12.88159pt too wide) in paragraph at lines 195--195
 []\T2A/cmtt/m/n/14.4 <li><a href=""><img src="images/phone.png" alt="phone" /><
 /a></li>[] 
@@ -969,7 +1002,7 @@ Overfull \hbox (151.74052pt too wide) in paragraph at lines 427--427
 t-jquery-plugin-for-sliding[] 
  []
 
-[24] [25] [26]
+[29] [30] [31]
 Overfull \hbox (180.97398pt too wide) in paragraph at lines 427--427
 []\T2A/cmtt/m/n/14.4 $("ul", obj).prepend($("ul li:last-child", obj).clone().cs
 s("margin-left","-"+ w +"px"));[] 
@@ -999,54 +1032,56 @@ Overfull \hbox (480.61694pt too wide) in paragraph at lines 427--427
  +'"><a href=\"javascript:void(0);\">'+ options.lastText +'</a></span>';[] 
  []
 
-[27]
+[32]
 Overfull \hbox (27.49832pt too wide) in paragraph at lines 427--427
 []\T2A/cmtt/m/n/14.4 .html('<a rel='+ i +' href=\"javascript:void(0);\">'+ (i+1
 ) +'</a>')[] 
  []
 
-[28] [29] [30] [31] [32] [33] [34] [35]
+[33] [34] [35] [36] [37] [38] [39] [40]
 Overfull \hbox (5.57323pt too wide) in paragraph at lines 771--771
 []        \T2A/cmtt/m/n/14.4 .graphic, #prevBtn, #nextBtn, #slider1prev, #slide
 r1next{[] 
  []
 
-[36]
+[41]
 Overfull \hbox (56.73178pt too wide) in paragraph at lines 771--771
 []\T2A/cmtt/m/n/14.4 entire slider area will adjust according to the parameters
  provided here[] 
  []
 
-[37] [38]
+[42] [43]
 Overfull \hbox (64.04015pt too wide) in paragraph at lines 771--771
 []\T2A/cmtt/m/n/14.4 ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus
 {outline:none;}[] 
  []
 
-[39] [40] [41] [42] [43]) [44] (C:\xampp1\htdocs\example.aux)
+[44] [45] [46] [47] [48]) [49] (C:\xampp1\htdocs\example.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4297 strings out of 493921
- 54431 string characters out of 3147271
- 115990 words of memory out of 3000000
- 7449 multiletter control sequences out of 15000+200000
- 13943 words of font info for 36 fonts, out of 3000000 for 9000
+ 4302 strings out of 493921
+ 54522 string characters out of 3147271
+ 114896 words of memory out of 3000000
+ 7450 multiletter control sequences out of 15000+200000
+ 14745 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,5n,26p,1705b,235s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,5n,26p,1705b,236s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\NickolaiL\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi60
 0\latt1440.pk> <C:\Users\NickolaiL\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\
 lh-t2a\dpi600\labx1728.pk> <C:\Users\NickolaiL\AppData\Local\MiKTeX\2.9\fonts\p
 k\ljfour\lh\lh-t2a\dpi600\labx2074.pk> <C:\Users\NickolaiL\AppData\Local\MiKTeX
 \2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk> <C:\Users\NickolaiL\AppData\
-Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1440.pk> <C:\Users\Nickol
-aiL\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600\larm1440.pk
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on example.pdf (45 pages, 1769079 bytes).
+Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk> <C:\Users\Nickol
+aiL\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\lh\lh-t2a\dpi600\lacc1440.pk> <C:\
+Users\NickolaiL\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\unknown\unknown\dpi600
+\larm1440.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb>
+Output written on example.pdf (50 pages, 1768393 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
+ 555 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
